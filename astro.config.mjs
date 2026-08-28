@@ -15,7 +15,7 @@ import { SITE } from "./site.config.mjs";
 export default defineConfig({
   site: SITE.url,
 
-  adapter: cloudflare(),
+  adapter: cloudflare({ imageService: "compile" }),
 
   integrations: [
     SITE.indexable && sitemap(),
