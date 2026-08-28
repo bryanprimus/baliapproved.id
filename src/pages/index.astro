@@ -1,5 +1,6 @@
 ---
 import Layout from "@/layouts/Layout.astro";
+import Footer from "@/components/Footer.astro";
 import Hero from "@/components/Hero.astro";
 import PlaceCover from "@/components/PlaceCover.astro";
 import PlaceReview from "@/components/PlaceReview.astro";
@@ -131,7 +132,7 @@ const jsonLd = {
 ---
 
 <Layout title={SITE.title} description={SITE.description} jsonLd={jsonLd}>
-  <main class="min-h-[100dvh] bg-[#F5F2E9] dark:bg-[#1A1914]">
+  <main class="min-h-[100dvh] bg-site-canvas">
     <Hero />
     <div id="places">
       {
@@ -148,4 +149,5 @@ const jsonLd = {
       }
     </div>
   </main>
+  <Footer />
 </Layout>
