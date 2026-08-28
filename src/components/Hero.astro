@@ -1,0 +1,51 @@
+---
+import { Image } from "astro:assets";
+
+import { ModeToggle } from "@/components/ModeToggle";
+import { buttonVariants } from "@/components/ui/button";
+import { cn } from "@/lib/utils";
+
+import teamPhoto from "@/assets/team.jpg";
+---
+
+<section class="mx-auto flex w-full max-w-xl flex-col px-6 py-6 sm:py-8">
+  <div class="flex justify-center">
+    <ModeToggle client:load />
+  </div>
+
+  <Image
+    src={teamPhoto}
+    alt="The three of us behind Bali Approved"
+    widths={[576, 1080]}
+    sizes="(min-width: 640px) 576px, 100vw"
+    loading="eager"
+    fetchpriority="high"
+    class="mt-6 aspect-5/4 w-full object-cover"
+  />
+
+  <h1 class="mt-8 text-xl leading-tight tracking-tight sm:text-3xl">
+    Hi, we are the team behind baliapproved.id.
+  </h1>
+
+  <p class="mt-4 text-base leading-relaxed text-muted-foreground">
+    We moved to Bali 19 days ago. As we started exploring, we found so many
+    interesting places that we wanted a way to remember them, document them, and
+    appreciate each experience for what it was. Bali Approved is our record of
+    the places we've actually visited and our honest experience of them.
+    Hopefully, it becomes something useful for us to look back on in the future,
+    and perhaps useful for you too.
+  </p>
+
+  <div class="mt-10 flex flex-wrap gap-3">
+    {/* Nowhere to link yet, so this stays a non-navigating placeholder. */}
+    <button type="button" class={cn(buttonVariants({ size: "lg" }))}>
+      See the places
+    </button>
+    <a
+      href={`https://wa.me/6285117325144?text=${encodeURIComponent("Halo Bali Approved, saya ingin membicarakan kerja sama.")}`}
+      class={cn(buttonVariants({ variant: "outline", size: "lg" }))}
+    >
+      Collaborate with us
+    </a>
+  </div>
+</section>
