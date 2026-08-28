@@ -1,6 +1,7 @@
 ---
 import Layout from "@/layouts/Layout.astro";
 import Hero from "@/components/Hero.astro";
+import { Seal } from "@/components/Seal";
 
 import { SITE } from "../../site.config.mjs";
 
@@ -40,5 +41,14 @@ const jsonLd = {
 <Layout title={SITE.title} description={SITE.description} jsonLd={jsonLd}>
   <main class="min-h-screen bg-[#F5F2E9] dark:bg-[#1A1914]">
     <Hero />
+    <div class="mx-auto flex w-full max-w-xl justify-center px-6 pb-12">
+      <Seal
+        number={1}
+        area="Bali"
+        year={2026}
+        size={200}
+        className="bg-[#006241] [&_svg_text]:fill-white/80 [&>span]:text-white"
+      />
+    </div>
   </main>
 </Layout>
