@@ -27,6 +27,33 @@ const serializedJsonLd = jsonLd
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    {/* Runs before first paint so the theme never flashes. */}
+    <script is:inline>
+      const getThemePreference = () => {
+        if (
+          typeof localStorage !== "undefined" &&
+          localStorage.getItem("theme")
+        ) {
+          return localStorage.getItem("theme");
+        }
+        return window.matchMedia("(prefers-color-scheme: dark)").matches
+          ? "dark"
+          : "light";
+      };
+
+      const applyThemePreference = () => {
+        const isDark = getThemePreference() === "dark";
+        document.documentElement.classList[isDark ? "add" : "remove"]("dark");
+      };
+
+      applyThemePreference();
+
+      // Only takes effect while no explicit choice is stored, so the OS
+      // switching themes is followed live without overriding the user.
+      window
+        .matchMedia("(prefers-color-scheme: dark)")
+        .addEventListener("change", applyThemePreference);
+    </script>
     <SEO title={title} description={description} {...seoProps} />
     {
       serializedJsonLd && (
