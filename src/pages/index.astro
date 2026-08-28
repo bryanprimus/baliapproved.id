@@ -1,9 +1,43 @@
 ---
 import Layout from "@/layouts/Layout.astro";
 import { Button } from "@/components/ui/button";
+
+import { SITE } from "../../site.config.mjs";
+
+const siteUrl = new URL("/", Astro.site ?? SITE.url);
+const organizationId = new URL("#organization", siteUrl).href;
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": new URL("#website", siteUrl).href,
+      url: siteUrl.href,
+      name: SITE.name,
+      alternateName: "baliapproved.id",
+      description: SITE.description,
+      inLanguage: SITE.language,
+      publisher: { "@id": organizationId },
+    },
+    {
+      "@type": "Organization",
+      "@id": organizationId,
+      url: siteUrl.href,
+      name: SITE.name,
+      logo: {
+        "@type": "ImageObject",
+        url: new URL("/logo-512.png", siteUrl).href,
+        width: 512,
+        height: 512,
+      },
+      sameAs: ["https://www.instagram.com/bali.approved/"],
+    },
+  ],
+};
 ---
 
-<Layout>
+<Layout title={SITE.title} description={SITE.description} jsonLd={jsonLd}>
   <main class="grid min-h-screen place-items-center">
     <Button variant="outline">shadcn is working</Button>
   </main>

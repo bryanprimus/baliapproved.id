@@ -1,16 +1,43 @@
 ---
+import SEO from "@/components/SEO.astro";
 import "../styles/global.css";
+
+import { SITE } from "../../site.config.mjs";
+
+type JsonLd = Record<string, unknown> | Record<string, unknown>[];
+
+interface Props {
+  title: string;
+  description: string;
+  canonical?: string | URL;
+  image?: string | URL;
+  imageAlt?: string;
+  type?: "website" | "article";
+  jsonLd?: JsonLd;
+}
+
+const { title, description, jsonLd, ...seoProps } = Astro.props;
+const serializedJsonLd = jsonLd
+  ? JSON.stringify(jsonLd).replaceAll("<", "\\u003c")
+  : undefined;
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang={SITE.language}>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="icon" href="/favicon.ico" />
-    <meta name="generator" content={Astro.generator} />
-    <title>Astro Basics</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <SEO title={title} description={description} {...seoProps} />
+    {
+      serializedJsonLd && (
+        <script
+          type="application/ld+json"
+          set:html={serializedJsonLd}
+          is:inline
+        />
+      )
+    }
+    <slot name="head" />
   </head>
   <body>
     <slot />
