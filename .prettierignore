@@ -1,0 +1,5 @@
+.astro/
+dist/
+.wrangler/
+pnpm-lock.yaml
+worker-configuration.d.ts
