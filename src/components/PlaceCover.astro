@@ -20,12 +20,8 @@ const approvedDate = new Intl.DateTimeFormat("en-GB", {
 }).format(data.approvedAt);
 ---
 
-<article
-  id={place.id}
-  aria-labelledby={titleId}
-  class="scroll-mt-6 px-6 py-14 sm:px-8 sm:py-18 lg:py-22"
->
-  <div class="mx-auto w-full max-w-[58rem]">
+<div class="px-6 pt-12 pb-10 sm:px-8 sm:pt-16 sm:pb-12 lg:pt-18 lg:pb-14">
+  <div class="mx-auto w-full max-w-[52rem]">
     <div class="flex justify-center">
       <Seal
         number={data.approvalNumber}
@@ -36,7 +32,7 @@ const approvedDate = new Intl.DateTimeFormat("en-GB", {
       />
     </div>
 
-    <header class="mx-auto mt-7 max-w-[52rem] text-center sm:mt-8">
+    <header class="mx-auto mt-6 max-w-[52rem] text-center sm:mt-7">
       <h2
         id={titleId}
         class="text-[clamp(2.125rem,5.5vw,4.375rem)] leading-[0.96] tracking-[-0.035em] text-balance"
@@ -55,7 +51,7 @@ const approvedDate = new Intl.DateTimeFormat("en-GB", {
       </a>
 
       <p
-        class="mx-auto mt-5 max-w-[44rem] text-[0.9375rem] leading-relaxed text-pretty text-muted-foreground sm:mt-6 sm:text-[1.0625rem]"
+        class="mx-auto mt-4 max-w-[44rem] text-[0.9375rem] leading-relaxed text-pretty text-muted-foreground sm:mt-5 sm:text-[1.0625rem]"
       >
         {data.description}
       </p>
@@ -65,12 +61,14 @@ const approvedDate = new Intl.DateTimeFormat("en-GB", {
       src={data.cover}
       alt={data.coverAlt}
       widths={[640, 960, 1280]}
-      sizes="(min-width: 992px) 928px, (min-width: 640px) calc(100vw - 64px), calc(100vw - 48px)"
+      sizes="(min-width: 896px) 832px, (min-width: 640px) calc(100vw - 64px), calc(100vw - 48px)"
       loading="lazy"
-      class="mt-9 aspect-4/5 w-full object-cover sm:mt-11 sm:aspect-4/3 lg:aspect-16/10"
+      class="mt-8 aspect-4/5 w-full object-cover sm:mt-10 sm:aspect-4/3 lg:aspect-16/10"
     />
 
-    <dl class="mt-7 grid grid-cols-1 gap-5 text-center md:mt-8 md:grid-cols-3">
+    <dl
+      class="mt-6 grid grid-cols-1 gap-4 text-center md:mt-7 md:grid-cols-3 md:gap-5"
+    >
       <div>
         <dt
           class="text-[0.6875rem] font-semibold tracking-[0.2em] text-muted-foreground uppercase"
@@ -115,4 +113,4 @@ const approvedDate = new Intl.DateTimeFormat("en-GB", {
       </div>
     </dl>
   </div>
-</article>
+</div>

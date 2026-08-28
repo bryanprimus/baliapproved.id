@@ -2,6 +2,7 @@
 import Layout from "@/layouts/Layout.astro";
 import Hero from "@/components/Hero.astro";
 import PlaceCover from "@/components/PlaceCover.astro";
+import PlaceReview from "@/components/PlaceReview.astro";
 import { getImage } from "astro:assets";
 import { getCollection } from "astro:content";
 
@@ -132,8 +133,19 @@ const jsonLd = {
 <Layout title={SITE.title} description={SITE.description} jsonLd={jsonLd}>
   <main class="min-h-[100dvh] bg-[#F5F2E9] dark:bg-[#1A1914]">
     <Hero />
-    <div id="places" class="divide-y divide-foreground/10">
-      {places.map((place) => <PlaceCover place={place} />)}
+    <div id="places">
+      {
+        places.map((place) => (
+          <article
+            id={place.id}
+            aria-labelledby={`${place.id}-title`}
+            class="scroll-mt-6"
+          >
+            <PlaceCover place={place} />
+            <PlaceReview place={place} />
+          </article>
+        ))
+      }
     </div>
   </main>
 </Layout>
