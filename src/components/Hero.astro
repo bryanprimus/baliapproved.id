@@ -1,6 +1,7 @@
 ---
 import { Image } from "astro:assets";
 
+import { DaysAgo } from "@/components/DaysAgo";
 import { ModeToggle } from "@/components/ModeToggle";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
@@ -28,12 +29,12 @@ import teamPhoto from "@/assets/team.webp";
   </h1>
 
   <p class="mt-4 text-base leading-relaxed text-muted-foreground">
-    We moved to Bali 19 days ago. As we started exploring, we found so many
-    interesting places that we wanted a way to remember them, document them, and
-    appreciate each experience for what it was. Bali Approved is our record of
-    the places we've actually visited and our honest experience of them.
-    Hopefully, it becomes something useful for us to look back on in the future,
-    and perhaps useful for you too.
+    We moved to Bali <DaysAgo client:load since="2026-08-09" />. As we started
+    exploring, we found so many interesting places that we wanted a way to
+    remember them, document them, and appreciate each experience for what it
+    was. Bali Approved is our record of the places we've actually visited and
+    our honest experience of them. Hopefully, it becomes something useful for us
+    to look back on in the future, and perhaps useful for you too.
   </p>
 
   <div class="mt-8 flex flex-wrap gap-3">
