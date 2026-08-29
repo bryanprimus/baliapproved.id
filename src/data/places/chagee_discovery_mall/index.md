@@ -13,7 +13,7 @@ overallRating: 4.4
 approvedAt: 2026-07-29
 ---
 
-If you are looking for a place to hang out but do not feel like having coffee or matcha again, CHAGEE is an appealing alternative.
+## If you are looking for a place to hang out but do not feel like having coffee or matcha again, CHAGEE is an appealing alternative.
 
 Located inside Discovery Mall Bali, one of its biggest advantages is its position facing Kuta Beach. The space is not large, but it feels cozy, fairly quiet, and a little different from most coffee shops.
 
@@ -37,3 +37,19 @@ There is a wide selection to choose from, and something about the combination of
 - Nature
 - Sunset
 - Beach View
+
+# 2. THE EXPERIENCE
+
+## A tea break with a different kind of atmosphere
+
+It turns out the experience here is not only about drinking tea.
+
+The moment you walk in, the smell of tea being processed is noticeable, and somehow it makes the space feel calmer. Combined with how many teas there are to choose from, the place has a character of its own instead of being somewhere you grab a drink and leave.
+
+When we came, people were coming and going fairly constantly, but it never felt too crowded or distracting. It was still comfortable enough to sit, talk, or simply enjoy a drink while watching the activity around you.
+
+And once the afternoon starts turning, light from the direction of Kuta Beach reaches the area around the outlet and makes the atmosphere even better.
+
+### Ambience
+
+**⭐ 4.5 / 5**

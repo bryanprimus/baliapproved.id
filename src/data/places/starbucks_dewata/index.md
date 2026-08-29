@@ -33,3 +33,17 @@ The space is **spacious, modern, and slightly luxurious**, but it does not feel 
 - Outdoor
 - Family Friendly
 - Aesthetic Photo Spot
+
+# 2. THE EXPERIENCE
+
+## A space you can actually stay in
+
+The first thing we noticed was how big the place is.
+
+There are plenty of seating options, from individual tables and communal tables to sofas and bar seating. You can choose between indoor and outdoor areas depending on what kind of mood you're in.
+
+We visited after lunch on a weekday, and at that time, it was relatively quiet. Working alone felt comfortable, but the space also works well if you're coming with friends or having a casual meeting.
+
+### Ambience
+
+**⭐ 4.5 / 5**
