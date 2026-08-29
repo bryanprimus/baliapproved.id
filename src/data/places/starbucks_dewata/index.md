@@ -130,3 +130,50 @@ Some spots upstairs can also get direct sunlight in the afternoon, although the 
 ### Comfort
 
 **⭐ 4.5 / 5**
+
+# 3. GOOD TO KNOW
+
+![The Starbucks Reserve Dewata sign and roadside tables on Jalan Sunset Road](./DSCF2936.webp)
+
+## Spending
+
+**Rp30K–75K per person**
+
+This depends on what you order, but the price range feels reasonable for the overall experience and facilities available.
+
+## Parking
+
+### Motorcycle
+
+**Plenty**
+
+### Car
+
+**Plenty**
+
+Parking is available in a dedicated area and was spacious enough during our visit. One less thing to worry about if you're planning to stay for a while.
+
+## Facilities
+
+- Toilet
+- Wi-Fi
+- Power Outlet
+
+## Best Time to Visit
+
+**Weekday Afternoon**
+
+We came after lunch on a weekday and had no trouble finding a seat. If you want the upstairs without the glare, aim earlier rather than later in the afternoon.
+
+## Reservation
+
+**Not Needed**
+
+You can simply walk in. For solo visitors or small groups, finding a spot should generally be easier, especially when the place isn't too busy.
+
+## Accessibility
+
+- Wheelchair Accessible
+- Accessible Toilet
+
+There is also a lift, which makes moving between floors easier for elderly visitors or anyone with mobility needs.

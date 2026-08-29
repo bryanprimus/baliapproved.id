@@ -126,3 +126,51 @@ If you are looking for somewhere to cool off from the Kuta heat, the indoor area
 ### Comfort
 
 **⭐ 4.4 / 5**
+
+# 3. GOOD TO KNOW
+
+![Umbrellas on Kuta Beach at sunset, just outside Discovery Shopping Mall](./DSCF3081.webp)
+
+## Spending
+
+**Rp30K–60K per person**
+
+Reasonable enough for stopping by, hanging out, or enjoying a tea while you wait for the afternoon to turn.
+
+## Parking
+
+### Motorcycle
+
+**Plenty**
+
+### Car
+
+**Plenty**
+
+Because the outlet sits inside Discovery Mall Bali, you park in the mall's own parking area.
+
+That turns out to be a plus: it is easier and feels safer than hunting for your own spot around Kuta.
+
+## Facilities
+
+- Toilet
+- Wi-Fi
+- Power Outlet
+
+The toilet is Discovery Mall's public facility rather than one belonging to CHAGEE. Fortunately it is close by, tucked under the stairs directly across from the outlet.
+
+## Best Time to Visit
+
+**Afternoon · Evening**
+
+In our view, the best time to come is midday, as it edges toward late afternoon.
+
+You can sit inside first, enjoy a tea or simply cool off, and then step out to the beach once sunset gets close.
+
+No complicated plan needed.
+
+## Reservation
+
+**Not Needed**
+
+Just turn up and find whichever seat is free.

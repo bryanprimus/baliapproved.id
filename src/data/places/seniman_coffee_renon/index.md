@@ -131,3 +131,45 @@ The indoor area is air-conditioned, and the covered seating at the back is the b
 ### Comfort
 
 **⭐ 4.8 / 5**
+
+# 3. GOOD TO KNOW
+
+![Bottles, tea packages and merchandise on the retail shelves at Seniman Coffee Renon](./DSCF4408.webp)
+
+## Spending
+
+**Rp40K–100K per person**
+
+A single coffee sits at the lower end. Add a pastry or one of the signature drinks and you land nearer the top.
+
+## Parking
+
+### Motorcycle
+
+**Enough**
+
+### Car
+
+**Limited**
+
+On-site parking is tight. A motorbike is easy to place, but arriving by car during the busier hours may leave you looking for space on the street.
+
+## Facilities
+
+- Toilet
+- Wi-Fi
+- Power Outlet
+
+The toilet is at the back, past the covered outdoor seating.
+
+## Best Time to Visit
+
+**Morning · Early Afternoon**
+
+Doors open at 7:30 and the room stays unhurried through the first half of the day. Evenings are the busiest stretch, so come earlier if you want the quiet version of the place.
+
+## Reservation
+
+**Not Needed**
+
+Walking in is normally fine. Evenings are the exception; if you are coming with a group after dark, booking a table ahead saves you standing around.
