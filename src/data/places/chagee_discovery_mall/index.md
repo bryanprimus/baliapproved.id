@@ -76,3 +76,53 @@ The Wi-Fi ran smoothly the whole time we were working, with no real problems.
 **Enough**
 
 Outlets are available and helpful enough if you are just stopping by to charge a laptop or another device.
+
+## Seating & Space
+
+### Area
+
+**Indoor**
+
+Available seating includes:
+
+- Individual tables
+- Communal tables
+
+### Space Size
+
+**Cozy**
+
+The place is not particularly large, which makes it better suited to coming alone or in a small group than turning up with a big crowd.
+
+## Environment
+
+### Noise Level
+
+**Quiet**
+
+During our visit the atmosphere stayed calm, with no noise that felt genuinely distracting.
+
+### Air Conditioning
+
+**AC**
+
+If you are looking for somewhere to cool off from the Kuta heat, the indoor area is comfortable enough.
+
+## Food & Beverage Available
+
+- Tea
+- Non-Coffee
+
+## Experience Scores
+
+### WFC Experience
+
+**⭐ 4.3 / 5**
+
+### Service
+
+**⭐ 4.3 / 5**
+
+### Comfort
+
+**⭐ 4.4 / 5**

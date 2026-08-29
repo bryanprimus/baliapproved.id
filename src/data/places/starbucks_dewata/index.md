@@ -70,3 +70,63 @@ The Wi-Fi was fast during our visit, although we occasionally had to reconnect.
 **Enough**
 
 There are enough outlets around the space, but not every table has one. If you're planning to stay for a long time, it might be worth looking around before choosing your seat.
+
+## Seating & Space
+
+### Area
+
+**Indoor & Outdoor**
+
+Available seating includes:
+
+- Individual tables
+- Communal tables
+- Sofas
+- Bar seating
+
+### Space Size
+
+**Spacious**
+
+The layout gives you enough options to choose a spot depending on whether you're working, meeting someone, or simply hanging out.
+
+## Environment
+
+### Noise Level
+
+**Quiet**
+
+Based on our weekday afternoon visit, the space was calm enough to work or spend time alone comfortably.
+
+### Air Conditioning
+
+**AC**
+
+The indoor area is air-conditioned. Just a small note from our experience: the second floor can get quite cold later in the day, so bringing a light jacket wouldn't be a bad idea.
+
+Some spots upstairs can also get direct sunlight in the afternoon, although the large windows give the space plenty of natural light and views.
+
+## Food & Beverage Available
+
+- Coffee
+- Specialty Coffee
+- Non-Coffee
+- Breakfast
+- Light Meals
+- Dessert
+- Bakery
+- International Food
+
+## Experience Scores
+
+### WFC Experience
+
+**⭐ 4.7 / 5**
+
+### Service
+
+**⭐ 4.4 / 5**
+
+### Comfort
+
+**⭐ 4.5 / 5**

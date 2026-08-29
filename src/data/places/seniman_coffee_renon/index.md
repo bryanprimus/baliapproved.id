@@ -75,3 +75,59 @@ The Wi-Fi handled normal work without complaints, though we did not push it with
 **Enough**
 
 There are outlets around, but they are not at every seat. Worth picking your table with that in mind if you are staying a while.
+
+## Seating & Space
+
+### Area
+
+**Indoor & Outdoor**
+
+Available seating includes:
+
+- Individual tables
+- Sofas
+- Bar seating
+- Rocking chairs
+
+### Space Size
+
+**Spacious**
+
+There is room to move between the bar, the tables, the lounge chairs, and the covered area at the back, so it rarely feels like you are stuck with whatever seat is left.
+
+## Environment
+
+### Noise Level
+
+**Quiet**
+
+The room stays calm even when most of the seats are taken, and the music never climbs over the conversation at your own table.
+
+### Air Conditioning
+
+**AC**
+
+The indoor area is air-conditioned, and the covered seating at the back is the better option if you would rather have air than cold.
+
+## Food & Beverage Available
+
+- Coffee
+- Specialty Coffee
+- Non-Coffee
+- Tea
+- Dessert
+- Bakery
+
+## Experience Scores
+
+### WFC Experience
+
+**⭐ 4.7 / 5**
+
+### Service
+
+**⭐ 4.8 / 5**
+
+### Comfort
+
+**⭐ 4.8 / 5**
