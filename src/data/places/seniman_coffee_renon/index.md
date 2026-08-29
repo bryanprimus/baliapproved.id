@@ -52,3 +52,26 @@ This is a place that rewards slowing down. If you are in a rush, you will miss m
 ### Ambience
 
 **⭐ 4.8 / 5**
+
+![Shelves of Seniman coffee beans and tea packages on the retail display](./DSCF4403.webp)
+![A latte and green glass tumblers on a colorful tray at Seniman Coffee Renon](./DSCF4449.webp)
+
+## Work Experience
+
+### WFC Friendly
+
+**⭐ 4.5 / 5**
+
+The room stays calm enough to focus in, and there is a seat for most working styles: the bar, proper tables, the lounge chairs, and the covered area outside. It is not a co-working space, but nobody seems to mind a laptop open for a couple of hours.
+
+### Wi-Fi
+
+**⭐ 4 / 5**
+
+The Wi-Fi handled normal work without complaints, though we did not push it with anything heavy.
+
+### Power Outlets
+
+**Enough**
+
+There are outlets around, but they are not at every seat. Worth picking your table with that in mind if you are staying a while.

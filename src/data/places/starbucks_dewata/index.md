@@ -47,3 +47,26 @@ We visited after lunch on a weekday, and at that time, it was relatively quiet. 
 ### Ambience
 
 **⭐ 4.5 / 5**
+
+![Bar seating along the window-lined walkway at Starbucks Reserve Dewata](./DSCF2933.webp)
+![Merchandise shelves and rolling ladder behind the bar at Starbucks Reserve Dewata](./DSCF2938.webp)
+
+## Work Experience
+
+### WFC Friendly
+
+**⭐ 5 / 5**
+
+Starbucks Dewata is genuinely comfortable for working. The space is large enough to spend a few hours without feeling like you're taking up someone's table.
+
+### Wi-Fi
+
+**⭐ 4 / 5**
+
+The Wi-Fi was fast during our visit, although we occasionally had to reconnect.
+
+### Power Outlets
+
+**Enough**
+
+There are enough outlets around the space, but not every table has one. If you're planning to stay for a long time, it might be worth looking around before choosing your seat.

@@ -53,3 +53,26 @@ And once the afternoon starts turning, light from the direction of Kuta Beach re
 ### Ambience
 
 **⭐ 4.5 / 5**
+
+![Afternoon light across the curved seating area at CHAGEE Discovery Mall](./DSCF3032.webp)
+![Curved bench seating beneath the illuminated C logo at CHAGEE Discovery Mall](./DSCF2981.webp)
+
+## Work Experience
+
+### WFC Friendly
+
+**⭐ 4 / 5**
+
+CHAGEE is not the first place that comes to mind when you think about working from a cafe, but a short session here was surprisingly comfortable.
+
+### Wi-Fi
+
+**⭐ 4 / 5**
+
+The Wi-Fi ran smoothly the whole time we were working, with no real problems.
+
+### Power Outlets
+
+**Enough**
+
+Outlets are available and helpful enough if you are just stopping by to charge a laptop or another device.
