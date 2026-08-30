@@ -173,3 +173,42 @@ Doors open at 7:30 and the room stays unhurried through the first half of the da
 **Not Needed**
 
 Walking in is normally fine. Evenings are the exception; if you are coming with a group after dark, booking a table ahead saves you standing around.
+
+# 4. UNIQUENESS
+
+## Almost everything here was made by Seniman
+
+Seniman means artist in Indonesian, and the name works closer to a job description than a brand.
+
+Alongside the coffee, Seniman runs its own product and interior design division. The furniture, the tableware, the lighting, the merchandise, and the interiors themselves are designed in-house. So the unusual mugs and the chairs you noticed on the way in are not sourced decor; they are products, and the cafe doubles as the showroom.
+
+The coffee follows the same logic. Seniman roasts its own beans, and the line-up rotates through Indonesian single origins instead of settling on one house blend, which is why the bar looks slightly different depending on when you turn up.
+
+## The Bar Roker
+
+**The chair you are sitting in is the product**
+
+The rocking chairs are Seniman's best-known design. They start from the cheap injection-molded plastic chair you have seen at every warung in Indonesia, then add a rocker base of reclaimed Balinese teak, cut and finished by hand.
+
+The result is weatherproof, stackable, flat-packed, and far more comfortable than it has any right to be. You can buy one, along with the beans and the glassware, from the retail shelves a few steps from your table.
+
+## Coffee
+
+**⭐ 4.8 / 5**
+
+Because the single-origin selection rotates, it is worth asking what is on the bar that week rather than defaulting to your usual order.
+
+## What Surprised Us
+
+**The bathroom entrance**
+
+Not a sentence we expected to write either. But it is the clearest sign of how far the design thinking goes here: even the part of a cafe nobody bothers with has been given some attention.
+
+## Unique Features
+
+- Signature Menu
+- In-House Roastery
+- Original Furniture Design
+- Art Space
+- Retail Shop
+- Vinyl Corner

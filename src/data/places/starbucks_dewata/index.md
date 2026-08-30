@@ -177,3 +177,44 @@ You can simply walk in. For solo visitors or small groups, finding a spot should
 - Accessible Toilet
 
 There is also a lift, which makes moving between floors easier for elderly visitors or anyone with mobility needs.
+
+# 4. UNIQUENESS
+
+## More than a regular Starbucks run
+
+What separates Starbucks Dewata from a normal outlet is the **Starbucks Reserve** side of it.
+
+There's a dedicated Reserve bar with a different setup from the usual counter, plus a menu of drinks you won't find at your neighborhood Starbucks.
+
+One thing caught our attention straight away.
+
+## The Oviso
+
+**Only one in Indonesia**
+
+The Oviso is Starbucks' own espresso machine, built for Reserve stores, and Dewata is the only place in Indonesia you can see one.
+
+It works the opposite way to a normal machine: instead of the shot falling into the cup, water is pushed upward and the espresso fills a glass cylinder from the bottom. The milk gets steamed the same way.
+
+It looks nothing like a regular espresso machine, but more than that, the whole setup turns ordering and watching your drink get made into part of the visit.
+
+Honestly, it left us curious enough to come back and work through more of the Reserve menu.
+
+## Coffee
+
+**⭐ 4.5 / 5**
+
+Our rating covers only what we actually ordered:
+
+- Americano
+- Aerocano
+
+The Aerocano was the one that stood out. The presentation is genuinely interesting, and the coffee still has the consistency you'd expect from Starbucks.
+
+## Unique Features
+
+- Signature Menu
+- Garden
+- Unique Space Concept
+- Coffee Class
+- Special Facilities

@@ -174,3 +174,34 @@ No complicated plan needed.
 **Not Needed**
 
 Just turn up and find whichever seat is free.
+
+# 4. UNIQUENESS
+
+## The tea is only half of the experience
+
+What makes this outlet interesting is not just the range of teas.
+
+Inside, you can smell several of them as they are being prepared, and we thought that added something to sitting there. But the biggest advantage still comes from where it is.
+
+Walk out of the door and the way down to Kuta Beach is right in front of you.
+
+So once you have finished your drink, there is nowhere else you need to move to if you decide to stay for the sunset.
+
+## What's Unique Here
+
+**Tea and sunset**
+
+It really is that simple. Enjoy your tea in a cool room, then walk a few steps and watch the sun go down over Kuta Beach.
+
+## What Surprised Us
+
+**The Wi-Fi**
+
+Honestly, we did not expect much from this place for working. But for the whole time we used it, the connection ran smoothly with no real problems.
+
+## Unique Features
+
+- Unique Architecture
+- Sunset View
+- Beach Access
+- Creator Friendly
