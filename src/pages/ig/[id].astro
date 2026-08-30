@@ -6,6 +6,10 @@ import { Seal } from "@/components/Seal";
 import "../../styles/global.css";
 
 export async function getStaticPaths() {
+  if (import.meta.env.PROD) {
+    return [];
+  }
+
   const places = await getCollection("places");
   return places.map((place) => ({
     params: { id: place.id },
@@ -15,6 +19,10 @@ export async function getStaticPaths() {
 
 interface Props {
   place: CollectionEntry<"places">;
+}
+
+if (import.meta.env.PROD) {
+  return new Response(null, { status: 404, statusText: "Not Found" });
 }
 
 const { id } = Astro.params;
