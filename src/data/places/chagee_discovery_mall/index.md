@@ -205,3 +205,68 @@ Honestly, we did not expect much from this place for working. But for the whole 
 - Sunset View
 - Beach Access
 - Creator Friendly
+
+# 5. OUR TAKE
+
+One of the things we liked most about CHAGEE Discovery Mall is how easy it is to reach.
+
+You do not have to hunt for the place, parking is safe because you simply use the mall's own area, and after that you walk straight into the cool air.
+
+The view toward the beach is a sizeable plus on top of that. The smell of tea inside the outlet somehow makes the room feel calmer, and the combination of what is in your glass and what is around you makes drinking tea here more enjoyable than it sounds on paper.
+
+If you want to stop by and work for a while, the Wi-Fi runs well and outlets are available. So it also works for catching up on a few things, charging a device, or simply sheltering from the Kuta heat before you go looking for the sunset.
+
+A small bonus: in the late afternoon there is a Kecak dance performance in the area beside Discovery Mall, so there is plenty to do around here once you have finished your drink.
+
+## But...
+
+CHAGEE is not a big place.
+
+If you turn up as a large group, the seating is not as flexible as elsewhere. There is no dedicated setup that really feels built for a crowd.
+
+For us this works better as a **stop-off, a relaxed hangout, or a short WFC session** than as somewhere to gather in numbers.
+
+## Who Might Skip This?
+
+- Budget-conscious visitors
+- Large groups
+
+# 6. THE VERDICT
+
+## Is it actually worth your time?
+
+If you are bored of hangout options that always come down to coffee or matcha, CHAGEE is a genuinely interesting alternative.
+
+It sits right by Kuta Beach, so one of the best combinations here is a simple one: turn up, sit for a while, drink tea, maybe work or charge a device, then head out for the sunset.
+
+The tables are comfortable enough for a short stay, the Wi-Fi ran smoothly the whole time we used it, and the location could hardly be easier to reach.
+
+For us, this is not somewhere you travel across the island for and then settle into for hours.
+
+But if you are already around Kuta and need somewhere to **cool off, drink something other than coffee, catch up on a bit of work, or wait out the time until sunset**, this is actually a pretty good choice.
+
+### Experience
+
+**⭐ 4.6 / 5**
+
+### Ambience
+
+**⭐ 4.2 / 5**
+
+### Visual
+
+**⭐ 4.5 / 5**
+
+### Service
+
+**⭐ 4.2 / 5**
+
+### Value for Money
+
+**⭐ 4.5 / 5**
+
+## Would We Come Back?
+
+**Yes, when we are already in Kuta**
+
+Especially for a tea before the sunset, or a short stop to cool off and check on work.

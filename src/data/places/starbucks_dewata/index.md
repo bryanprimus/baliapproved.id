@@ -218,3 +218,51 @@ The Aerocano was the one that stood out. The presentation is genuinely interesti
 - Unique Space Concept
 - Coffee Class
 - Special Facilities
+
+# 5. OUR TAKE
+
+What would bring us back isn't the Wi-Fi or the number of seats.
+
+It's the **overall vibe**.
+
+Starbucks Dewata feels modern and premium, but at the same time surprisingly chill. You can come here to work, take a meeting, hang out with friends, or simply spend a few hours alone with a book or your laptop.
+
+And when you've been sitting inside too long, the outdoor area gives you a change of scenery.
+
+## But here's the thing
+
+If you're looking for a small, intimate cafe with a more personal specialty coffee experience, this probably isn't the place.
+
+At the end of the day, **it still feels like Starbucks.** Just with a much bigger space, a more complete setup, and a few experiences you won't find at every outlet.
+
+Our take is subjective, and based on one weekday afternoon visit.
+
+# 6. THE VERDICT
+
+## Is it worth your time?
+
+### Experience
+
+**⭐ 4 / 5**
+
+### Ambience
+
+**⭐ 4.7 / 5**
+
+### Visual
+
+**⭐ 4.6 / 5**
+
+### Service
+
+**⭐ 4.5 / 5**
+
+### Value for Money
+
+**⭐ 4.5 / 5**
+
+## Would We Come Back?
+
+**Yes**
+
+Especially for a work session, a meeting, or a casual hangout.

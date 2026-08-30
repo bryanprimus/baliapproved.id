@@ -4,6 +4,7 @@ import Footer from "@/components/Footer.astro";
 import Hero from "@/components/Hero.astro";
 import PlaceCover from "@/components/PlaceCover.astro";
 import PlaceReview from "@/components/PlaceReview.astro";
+import PlaceVerdict from "@/components/PlaceVerdict.astro";
 import { getImage } from "astro:assets";
 import { getCollection } from "astro:content";
 
@@ -144,6 +145,7 @@ const jsonLd = {
           >
             <PlaceCover place={place} />
             <PlaceReview place={place} />
+            <PlaceVerdict place={place} />
           </article>
         ))
       }
