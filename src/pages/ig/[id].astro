@@ -33,6 +33,11 @@ if (!id) {
 }
 
 const rawSrc = `/_ig-raw/${id}.jpg`;
+const photoPositions: Record<string, string> = {
+  starbucks_dewata: "72% 42%",
+  chagee_discovery_mall: "50% 50%",
+};
+const photoPosition = photoPositions[id] ?? "center";
 const { data } = place;
 const approvedDate = new Intl.DateTimeFormat("en-GB", {
   day: "numeric",
@@ -72,7 +77,12 @@ const approvedDate = new Intl.DateTimeFormat("en-GB", {
 
       <p class="location">📍 {data.address}</p>
 
-      <img src={rawSrc} alt={data.coverAlt} class="photo" />
+      <img
+        src={rawSrc}
+        alt={data.coverAlt}
+        class="photo"
+        style={`object-position: ${photoPosition}`}
+      />
 
       <dl class="stats">
         <div>
@@ -154,7 +164,6 @@ const approvedDate = new Intl.DateTimeFormat("en-GB", {
     height: 680px;
     margin-top: 28px;
     object-fit: cover;
-    object-position: 72% 42%;
   }
 
   .stats {
