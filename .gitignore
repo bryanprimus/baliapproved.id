@@ -20,6 +20,12 @@ pnpm-debug.log*
 # macOS-specific files
 .DS_Store
 
+# Original photos staged for IG cover captures (not site assets)
+public/_ig-raw/
+
+# Generated Instagram covers and captions
+exports/
+
 # jetbrains setting folder
 .idea/
 
