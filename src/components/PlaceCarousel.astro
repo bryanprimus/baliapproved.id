@@ -1,0 +1,42 @@
+---
+import { Image } from "astro:assets";
+import type { CollectionEntry } from "astro:content";
+
+interface Props {
+  place: CollectionEntry<"places">;
+}
+
+const { place } = Astro.props;
+const { gallery } = place.data;
+---
+
+{
+  gallery.length > 0 && (
+    <div class="px-6 pb-12 sm:px-8 sm:pb-14">
+      <div class="mx-auto w-full max-w-[52rem]">
+        <h3 class="text-xs font-semibold tracking-[0.18em] text-muted-foreground uppercase">
+          More photos
+        </h3>
+
+        <ul
+          tabindex="0"
+          aria-label={`More photos of ${place.data.title}`}
+          class="-mx-6 mt-4 flex snap-x snap-mandatory [scrollbar-width:none] list-none gap-3 overflow-x-auto px-6 pb-1 [-ms-overflow-style:none] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#006241] sm:-mx-8 sm:gap-4 sm:px-8 [&::-webkit-scrollbar]:hidden"
+        >
+          {gallery.map((photo) => (
+            <li class="w-[78%] shrink-0 snap-center sm:w-[45%]">
+              <Image
+                src={photo.src}
+                alt={photo.alt}
+                widths={[400, 640, 800]}
+                sizes="(min-width: 640px) 380px, 78vw"
+                loading="lazy"
+                class="aspect-4/5 w-full object-cover"
+              />
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  )
+}

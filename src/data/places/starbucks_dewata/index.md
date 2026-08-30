@@ -11,6 +11,17 @@ address: Jl. Sunset Road No. 77, Seminyak, Kuta, Badung
 spending: Rp30K-75K per person
 overallRating: 4.5
 approvedAt: 2026-07-23
+gallery:
+  - src: ./DSCF2930.webp
+    alt: Woven rattan sphere sculpture hanging above the long bar counter and patterned tile floor at Starbucks Reserve Dewata
+  - src: ./DSCF2931.webp
+    alt: Floor-to-ceiling windows looking out to the planted outdoor terrace, with bar ledge seating along the glass
+  - src: ./DSCF2934.webp
+    alt: Glass pour-over brewers lined up along the counter beside a Beans of the Day card, with a barista working the bar
+  - src: ./DSCF2935.webp
+    alt: Journey from Seed to Cup display panel about Sumatran coffee on the wall of the seating area
+  - src: ./DSCF2942.webp
+    alt: Large white Starbucks bear statue wearing a green cup-lid hat in the garden outside
 ---
 
 Starbucks Dewata is one of those places that feels easy to spend time in.

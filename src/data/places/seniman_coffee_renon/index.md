@@ -11,6 +11,13 @@ address: Jl. Tukad Musi No. 19, Panjer, Denpasar Selatan, Denpasar
 spending: Rp40K-100K per person
 overallRating: 4.8
 approvedAt: 2026-08-28
+gallery:
+  - src: ./DSCF4403.webp
+    alt: Shelves of Seniman coffee beans and tea packages on the retail display
+  - src: ./DSCF4449.webp
+    alt: A latte and green glass tumblers on a colorful tray at Seniman Coffee Renon
+  - src: ./DSCF4408.webp
+    alt: Bottles, tea packages and merchandise on the retail shelves at Seniman Coffee Renon
 ---
 
 ## Seniman Coffee Renon feels like a coffee shop designed by people who genuinely enjoy making things.

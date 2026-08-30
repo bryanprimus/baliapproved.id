@@ -18,6 +18,9 @@ export const collections = {
         spending: z.string(),
         overallRating: z.number().min(0).max(5),
         approvedAt: z.coerce.date(),
+        gallery: z
+          .array(z.object({ src: image(), alt: z.string() }))
+          .default([]),
       }),
   }),
 };

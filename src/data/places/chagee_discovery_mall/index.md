@@ -11,6 +11,25 @@ address: Discovery Shopping Mall
 spending: Rp30K-60K per person
 overallRating: 4.4
 approvedAt: 2026-07-29
+gallery:
+  - src: ./DSCF2982.webp
+    alt: Holding a CHAGEE cup in front of the illuminated pick-up counter and tea brewing machines
+  - src: ./DSCF2984.webp
+    alt: View through the oval window in the plaster wall out to Balinese gate towers and the sea beyond
+  - src: ./DSCF2988.webp
+    alt: CHAGEE Tea Bar lettering embossed on the ribbed plaster wall, with a wooden horse figure and tea boxes on the ledge
+  - src: ./DSCF2990.webp
+    alt: Loose tea leaves in a glass flask on a brass stand next to an Osmanthus Oolong Tea display card
+  - src: ./DSCF2992.webp
+    alt: The lit TEABAR counter and neon CHAGEE logo on the ribbed wall, with staff at the order window
+  - src: ./DSCF3006.webp
+    alt: Standing outside the CHAGEE storefront at golden hour holding a drink
+  - src: ./DSCF3011.webp
+    alt: CHAGEE logo on the glass door with a palm tree reflected in it and tea products displayed inside
+  - src: ./DSCF3018.webp
+    alt: The CHAGEE storefront in late afternoon light, with two people sitting on the bench outside
+  - src: ./DSCF3091.webp
+    alt: Looking out over Kuta Beach at sunset, with surfers in the water
 ---
 
 ## If you are looking for a place to hang out but do not feel like having coffee or matcha again, CHAGEE is an appealing alternative.
