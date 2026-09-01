@@ -6,10 +6,12 @@ import { Seal } from "@/components/Seal";
 
 interface Props {
   place: CollectionEntry<"places">;
+  headingLevel?: "h1" | "h2";
 }
 
-const { place } = Astro.props;
+const { place, headingLevel = "h2" } = Astro.props;
 const { data } = place;
+const Heading = headingLevel;
 
 const titleId = `${place.id}-title`;
 const approvedDate = new Intl.DateTimeFormat("en-GB", {
@@ -33,12 +35,12 @@ const approvedDate = new Intl.DateTimeFormat("en-GB", {
     </div>
 
     <header class="mx-auto mt-6 max-w-[52rem] text-center sm:mt-7">
-      <h2
+      <Heading
         id={titleId}
         class="text-[clamp(2.125rem,5.5vw,4.375rem)] leading-[0.96] tracking-[-0.035em] text-balance"
       >
         {data.title}
-      </h2>
+      </Heading>
 
       <a
         href={data.mapsUrl}

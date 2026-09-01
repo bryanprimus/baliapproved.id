@@ -1,0 +1,154 @@
+---
+import { Image } from "astro:assets";
+import type { CollectionEntry } from "astro:content";
+
+import { Seal } from "@/components/Seal";
+
+interface Props {
+  places: CollectionEntry<"places">[];
+}
+
+const { places } = Astro.props;
+const dateFormatter = new Intl.DateTimeFormat("en-GB", {
+  day: "numeric",
+  month: "long",
+  year: "numeric",
+  timeZone: "UTC",
+});
+---
+
+<section
+  id="places"
+  aria-labelledby="places-heading"
+  class="scroll-mt-6 pt-14 sm:pt-18 lg:pt-24"
+>
+  <h2 id="places-heading" class="sr-only">Places</h2>
+
+  <ol class="list-none p-0">
+    {
+      places.map((place, index) => {
+        const { data } = place;
+        const reversed = index % 2 === 1;
+        const approvedDate = dateFormatter.format(data.approvedAt);
+
+        return (
+          <li
+            class:list={[
+              "px-6 py-16 sm:px-8 sm:py-20 lg:py-28",
+              index % 2 === 0 ? "bg-site-panel" : "bg-site-canvas",
+            ]}
+          >
+            <article
+              aria-labelledby={`${place.id}-listing-title`}
+              class="mx-auto grid w-full max-w-6xl items-center gap-x-12 lg:grid-cols-12 xl:gap-x-18"
+            >
+              <div
+                class:list={[
+                  "relative lg:col-span-7",
+                  { "lg:order-2": reversed },
+                ]}
+              >
+                <Image
+                  src={data.cover}
+                  alt={data.coverAlt}
+                  widths={[640, 960, 1280]}
+                  sizes="(min-width: 1152px) 664px, (min-width: 1024px) 58vw, calc(100vw - 48px)"
+                  loading="lazy"
+                  class="aspect-5/4 w-full object-cover sm:aspect-4/3 lg:aspect-6/5"
+                />
+
+                <div
+                  class:list={[
+                    "absolute right-4 bottom-0 z-10 translate-y-[34%] sm:right-7",
+                    { "lg:right-auto lg:left-7": reversed },
+                  ]}
+                >
+                  <Seal
+                    number={data.approvalNumber}
+                    area={data.sealArea}
+                    year={data.approvedAt.getUTCFullYear()}
+                    size={142}
+                    className="bg-[#006241] [&_svg_text]:fill-white/80 [&>span]:text-white"
+                  />
+                </div>
+              </div>
+
+              <div
+                class:list={[
+                  "pt-20 lg:col-span-5 lg:pt-0",
+                  { "lg:order-1": reversed },
+                ]}
+              >
+                <p class="flex flex-wrap items-center gap-x-2 text-sm font-medium text-muted-foreground">
+                  <span class="text-foreground">{data.sealArea}</span>
+                  <span aria-hidden="true">·</span>
+                  <span>
+                    Approved{" "}
+                    <time datetime={data.approvedAt.toISOString()}>
+                      {approvedDate}
+                    </time>
+                  </span>
+                </p>
+
+                <h3
+                  id={`${place.id}-listing-title`}
+                  class="mt-4 text-[clamp(2.25rem,4.5vw,4.5rem)] leading-[0.95] tracking-[-0.04em] text-balance"
+                >
+                  {data.title}
+                </h3>
+
+                <p class="mt-5 max-w-xl font-heading text-xl leading-relaxed tracking-[-0.01em] text-pretty sm:text-2xl">
+                  {data.description}
+                </p>
+
+                <dl class="mt-8 flex flex-wrap gap-x-10 gap-y-5">
+                  <div>
+                    <dt class="text-[0.625rem] font-semibold tracking-[0.18em] text-muted-foreground uppercase">
+                      Overall
+                    </dt>
+                    <dd class="mt-1.5 flex items-baseline gap-1.5 font-heading text-2xl tracking-tight">
+                      <span aria-hidden="true" class="text-base text-[#d49b20]">
+                        ★
+                      </span>
+                      <span>{data.overallRating.toFixed(1)} / 5</span>
+                    </dd>
+                  </div>
+
+                  <div>
+                    <dt class="text-[0.625rem] font-semibold tracking-[0.18em] text-muted-foreground uppercase">
+                      Spending
+                    </dt>
+                    <dd class="mt-1.5 font-heading text-xl tracking-tight">
+                      {data.spending}
+                    </dd>
+                  </div>
+                </dl>
+
+                <a
+                  href={data.mapsUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="mt-6 inline-flex max-w-xl items-start gap-2 text-sm leading-relaxed text-muted-foreground decoration-foreground/35 underline-offset-4 hover:text-foreground hover:underline focus-visible:rounded-sm focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#006241]"
+                >
+                  <span aria-hidden="true">📍</span>
+                  <span>{data.address}</span>
+                  <span class="sr-only"> (opens in a new tab)</span>
+                </a>
+
+                <div class="mt-7">
+                  <a
+                    href={`/places/${place.id}`}
+                    class="inline-flex items-center gap-2 text-sm font-semibold tracking-[0.04em] transition-colors hover:text-[#006241] focus-visible:rounded-sm focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#006241]"
+                  >
+                    Read our notes
+                    <span aria-hidden="true">→</span>
+                  </a>
+                </div>
+              </div>
+            </article>
+          </li>
+        );
+      })
+    }
+  </ol>
+</section>

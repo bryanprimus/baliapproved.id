@@ -1,0 +1,107 @@
+---
+import { getImage } from "astro:assets";
+import { getCollection, type CollectionEntry } from "astro:content";
+
+import Footer from "@/components/Footer.astro";
+import PlaceCarousel from "@/components/PlaceCarousel.astro";
+import PlaceCover from "@/components/PlaceCover.astro";
+import PlaceReview from "@/components/PlaceReview.astro";
+import Layout from "@/layouts/Layout.astro";
+
+import { SITE } from "../../../site.config.mjs";
+
+export async function getStaticPaths() {
+  const places = await getCollection("places");
+
+  return places.map((place) => ({
+    params: { id: place.id },
+    props: { place },
+  }));
+}
+
+interface Props {
+  place: CollectionEntry<"places">;
+}
+
+const { place } = Astro.props;
+const { data } = place;
+const siteUrl = new URL("/", Astro.site ?? SITE.url);
+const placeUrl = new URL(`/places/${place.id}`, siteUrl);
+const organizationId = new URL("#organization", siteUrl).href;
+const businessId = new URL("#business", placeUrl).href;
+const reviewId = new URL("#review", placeUrl).href;
+const socialImage = await getImage({
+  src: data.cover,
+  width: 1200,
+  height: 630,
+  fit: "cover",
+  format: "webp",
+});
+const socialImageUrl = new URL(socialImage.src, siteUrl).href;
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CafeOrCoffeeShop",
+      "@id": businessId,
+      name: data.title,
+      url: placeUrl.href,
+      sameAs: data.mapsUrl,
+      image: socialImageUrl,
+      priceRange: data.spending,
+      review: { "@id": reviewId },
+      address: data.address,
+    },
+    {
+      "@type": "Review",
+      "@id": reviewId,
+      url: placeUrl.href,
+      name: `${data.title} review`,
+      reviewBody: data.description,
+      datePublished: data.approvedAt.toISOString().slice(0, 10),
+      author: { "@id": organizationId },
+      publisher: { "@id": organizationId },
+      itemReviewed: { "@id": businessId },
+      reviewRating: {
+        "@type": "Rating",
+        ratingValue: data.overallRating,
+        bestRating: 5,
+        worstRating: 1,
+      },
+    },
+  ],
+};
+---
+
+<Layout
+  title={`${data.title} | Bali Approved`}
+  description={data.description}
+  canonical={placeUrl}
+  image={socialImageUrl}
+  imageAlt={data.coverAlt}
+  type="article"
+  jsonLd={jsonLd}
+>
+  <main class="min-h-[100dvh] bg-site-canvas">
+    <nav aria-label="Places" class="px-6 pt-7 sm:px-8 sm:pt-9">
+      <div class="mx-auto w-full max-w-[52rem]">
+        <a
+          href="/#places"
+          class="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:text-[#006241] focus-visible:rounded-sm focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#006241]"
+        >
+          <span aria-hidden="true">←</span>
+          Back to places
+        </a>
+      </div>
+    </nav>
+
+    <article aria-labelledby={`${place.id}-title`}>
+      <PlaceCover place={place} headingLevel="h1" />
+      <PlaceReview place={place} />
+      <PlaceCarousel place={place} />
+    </article>
+  </main>
+
+  <Footer />
+</Layout>

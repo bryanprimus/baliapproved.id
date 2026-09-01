@@ -2,10 +2,7 @@
 import Layout from "@/layouts/Layout.astro";
 import Footer from "@/components/Footer.astro";
 import Hero from "@/components/Hero.astro";
-import PlaceCover from "@/components/PlaceCover.astro";
-import PlaceReview from "@/components/PlaceReview.astro";
-import PlaceCarousel from "@/components/PlaceCarousel.astro";
-import PlaceVerdict from "@/components/PlaceVerdict.astro";
+import PlacesList from "@/components/PlacesList.astro";
 import { getImage } from "astro:assets";
 import { getCollection } from "astro:content";
 
@@ -20,6 +17,12 @@ const placesListId = new URL("#approved-places", siteUrl).href;
 const places = (await getCollection("places")).sort(
   (a, b) => a.data.approvalNumber - b.data.approvalNumber,
 );
+
+const getPlaceUrl = (placeId: string) => new URL(`/places/${placeId}`, siteUrl);
+const getBusinessId = (placeId: string) =>
+  new URL("#business", getPlaceUrl(placeId)).href;
+const getReviewId = (placeId: string) =>
+  new URL("#review", getPlaceUrl(placeId)).href;
 
 const schemaImageUrls = new Map(
   await Promise.all(
@@ -70,7 +73,7 @@ const jsonLd = {
       inLanguage: SITE.language,
       isPartOf: { "@id": websiteId },
       about: places.map((place) => ({
-        "@id": new URL(`#business-${place.id}`, siteUrl).href,
+        "@id": getBusinessId(place.id),
       })),
       mainEntity: { "@id": placesListId },
     },
@@ -84,14 +87,14 @@ const jsonLd = {
         "@type": "ListItem",
         position: index + 1,
         item: {
-          "@id": new URL(`#business-${place.id}`, siteUrl).href,
+          "@id": getBusinessId(place.id),
         },
       })),
     },
     ...places.flatMap((place) => {
-      const placeUrl = new URL(`#${place.id}`, siteUrl).href;
-      const businessId = new URL(`#business-${place.id}`, siteUrl).href;
-      const reviewId = new URL(`#review-${place.id}`, siteUrl).href;
+      const placeUrl = getPlaceUrl(place.id).href;
+      const businessId = getBusinessId(place.id);
+      const reviewId = getReviewId(place.id);
       const schemaImageUrl = schemaImageUrls.get(place.id);
 
       if (!schemaImageUrl) {
@@ -136,22 +139,7 @@ const jsonLd = {
 <Layout title={SITE.title} description={SITE.description} jsonLd={jsonLd}>
   <main class="min-h-[100dvh] bg-site-canvas">
     <Hero />
-    <div id="places">
-      {
-        places.map((place) => (
-          <article
-            id={place.id}
-            aria-labelledby={`${place.id}-title`}
-            class="scroll-mt-6"
-          >
-            <PlaceCover place={place} />
-            <PlaceReview place={place} />
-            <PlaceCarousel place={place} />
-            <PlaceVerdict place={place} />
-          </article>
-        ))
-      }
-    </div>
+    <PlacesList places={places} />
   </main>
   <Footer />
 </Layout>
