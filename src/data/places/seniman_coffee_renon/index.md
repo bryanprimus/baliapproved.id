@@ -8,8 +8,8 @@ cover: ./cover.webp
 coverAlt: Seniman Coffee Renon sign against a clear blue sky
 mapsUrl: https://www.google.com/maps/search/?api=1&query=Seniman%20Coffee%20Renon
 address: Jl. Tukad Musi No. 19, Panjer, Denpasar Selatan, Denpasar
-spending: Rp40K-100K per person
-overallRating: 4.8
+spending: Rp30K-100K per person
+overallRating: 4.6
 approvedAt: 2026-08-28
 gallery:
   - src: ./DSCF4403.webp
@@ -58,7 +58,7 @@ This is a place that rewards slowing down. If you are in a rush, you will miss m
 
 ### Ambience
 
-**⭐ 4.8 / 5**
+**⭐ 4.6 / 5**
 
 ![Shelves of Seniman coffee beans and tea packages on the retail display](./DSCF4403.webp)
 ![A latte and green glass tumblers on a colorful tray at Seniman Coffee Renon](./DSCF4449.webp)
@@ -133,11 +133,11 @@ The indoor area is air-conditioned, and the covered seating at the back is the b
 
 ### Service
 
-**⭐ 4.8 / 5**
+**⭐ 4.6 / 5**
 
 ### Comfort
 
-**⭐ 4.8 / 5**
+**⭐ 4.6 / 5**
 
 # 3. GOOD TO KNOW
 
@@ -145,7 +145,7 @@ The indoor area is air-conditioned, and the covered seating at the back is the b
 
 ## Spending
 
-**Rp40K–100K per person**
+**Rp30K–100K per person**
 
 A single coffee sits at the lower end. Add a pastry or one of the signature drinks and you land nearer the top.
 
@@ -201,7 +201,7 @@ The result is weatherproof, stackable, flat-packed, and far more comfortable tha
 
 ## Coffee
 
-**⭐ 4.8 / 5**
+**⭐ 4.6 / 5**
 
 Because the single-origin selection rotates, it is worth asking what is on the bar that week rather than defaulting to your usual order.
 
@@ -254,11 +254,11 @@ Arrive in the morning, take a rocking chair, ask what single origin is on the ba
 
 ### Experience
 
-**⭐ 4.8 / 5**
+**⭐ 4.6 / 5**
 
 ### Ambience
 
-**⭐ 4.8 / 5**
+**⭐ 4.6 / 5**
 
 ### Visual
 
@@ -266,7 +266,7 @@ Arrive in the morning, take a rocking chair, ask what single origin is on the ba
 
 ### Service
 
-**⭐ 4.8 / 5**
+**⭐ 4.6 / 5**
 
 ### Value for Money
 
