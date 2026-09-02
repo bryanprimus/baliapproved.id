@@ -48,14 +48,20 @@ const dateFormatter = new Intl.DateTimeFormat("en-GB", {
                   { "lg:order-2": reversed },
                 ]}
               >
-                <Image
-                  src={data.cover}
-                  alt={data.coverAlt}
-                  widths={[640, 960, 1280]}
-                  sizes="(min-width: 1152px) 664px, (min-width: 1024px) 58vw, calc(100vw - 48px)"
-                  loading="lazy"
-                  class="aspect-5/4 w-full object-cover sm:aspect-4/3 lg:aspect-6/5"
-                />
+                <a
+                  href={`/places/${place.id}`}
+                  aria-label={`See why we approved ${data.title}`}
+                  class="group block overflow-hidden focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#006241]"
+                >
+                  <Image
+                    src={data.cover}
+                    alt={data.coverAlt}
+                    widths={[640, 960, 1280]}
+                    sizes="(min-width: 1152px) 664px, (min-width: 1024px) 58vw, calc(100vw - 48px)"
+                    loading="lazy"
+                    class="aspect-5/4 w-full object-cover motion-safe:transition-transform motion-safe:duration-500 motion-safe:ease-out motion-safe:group-hover:scale-[1.015] motion-safe:group-focus-visible:scale-[1.015] sm:aspect-4/3 lg:aspect-6/5"
+                  />
+                </a>
 
                 <div
                   class:list={[
@@ -94,7 +100,12 @@ const dateFormatter = new Intl.DateTimeFormat("en-GB", {
                   id={`${place.id}-listing-title`}
                   class="mt-4 text-[clamp(2.25rem,4.5vw,4.5rem)] leading-[0.95] tracking-[-0.04em] text-balance"
                 >
-                  {data.title}
+                  <a
+                    href={`/places/${place.id}`}
+                    class="transition-colors hover:text-[#006241] focus-visible:rounded-sm focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#006241]"
+                  >
+                    {data.title}
+                  </a>
                 </h3>
 
                 <p class="mt-5 max-w-xl font-heading text-xl leading-relaxed tracking-[-0.01em] text-pretty sm:text-2xl">
@@ -124,6 +135,21 @@ const dateFormatter = new Intl.DateTimeFormat("en-GB", {
                   </div>
                 </dl>
 
+                <div class="mt-8">
+                  <a
+                    href={`/places/${place.id}`}
+                    class="group inline-flex w-full items-center justify-between gap-6 rounded-sm bg-[#006241] px-5 py-3.5 text-sm font-semibold tracking-[0.04em] text-white transition-colors hover:bg-[#004d33] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#006241] sm:w-auto"
+                  >
+                    <span>See why we approved it</span>
+                    <span
+                      aria-hidden="true"
+                      class="motion-safe:transition-transform motion-safe:group-hover:translate-x-1 motion-safe:group-focus-visible:translate-x-1"
+                    >
+                      →
+                    </span>
+                  </a>
+                </div>
+
                 <a
                   href={data.mapsUrl}
                   target="_blank"
@@ -134,16 +160,6 @@ const dateFormatter = new Intl.DateTimeFormat("en-GB", {
                   <span>{data.address}</span>
                   <span class="sr-only"> (opens in a new tab)</span>
                 </a>
-
-                <div class="mt-7">
-                  <a
-                    href={`/places/${place.id}`}
-                    class="inline-flex items-center gap-2 text-sm font-semibold tracking-[0.04em] transition-colors hover:text-[#006241] focus-visible:rounded-sm focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#006241]"
-                  >
-                    Read our notes
-                    <span aria-hidden="true">→</span>
-                  </a>
-                </div>
               </div>
             </article>
           </li>
