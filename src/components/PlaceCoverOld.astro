@@ -1,0 +1,118 @@
+---
+import { Image } from "astro:assets";
+import type { CollectionEntry } from "astro:content";
+
+import { Seal } from "@/components/Seal";
+
+interface Props {
+  place: CollectionEntry<"places">;
+  headingLevel?: "h1" | "h2";
+}
+
+const { place, headingLevel = "h2" } = Astro.props;
+const { data } = place;
+const Heading = headingLevel;
+
+const titleId = `${place.id}-title`;
+const approvedDate = new Intl.DateTimeFormat("en-GB", {
+  day: "numeric",
+  month: "long",
+  year: "numeric",
+  timeZone: "UTC",
+}).format(data.approvedAt);
+---
+
+<div class="px-6 pt-12 pb-10 sm:px-8 sm:pt-16 sm:pb-12 lg:pt-18 lg:pb-14">
+  <div class="mx-auto w-full max-w-[52rem]">
+    <div class="flex justify-center">
+      <Seal
+        number={data.approvalNumber}
+        area={data.sealArea}
+        year={data.approvedAt.getUTCFullYear()}
+        size={184}
+        className="bg-[#006241] [&_svg_text]:fill-white/80 [&>span]:text-white"
+      />
+    </div>
+
+    <header class="mx-auto mt-6 max-w-[52rem] text-center sm:mt-7">
+      <Heading
+        id={titleId}
+        class="text-[clamp(2.125rem,5.5vw,4.375rem)] leading-[0.96] tracking-[-0.035em] text-balance"
+      >
+        {data.title}
+      </Heading>
+
+      <a
+        href={data.mapsUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="mt-4 inline-flex max-w-2xl items-start justify-center gap-2 text-[0.8125rem] font-medium text-pretty decoration-foreground/35 underline-offset-4 hover:underline focus-visible:rounded-sm focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#006241] sm:text-[0.9375rem]"
+      >
+        📍 {data.address}
+        <span class="sr-only"> (opens in a new tab)</span>
+      </a>
+
+      <p
+        class="mx-auto mt-4 max-w-[44rem] text-[0.9375rem] leading-relaxed text-pretty text-muted-foreground sm:mt-5 sm:text-[1.0625rem]"
+      >
+        {data.description}
+      </p>
+    </header>
+
+    <Image
+      src={data.cover}
+      alt={data.coverAlt}
+      widths={[640, 960, 1280]}
+      sizes="(min-width: 896px) 832px, (min-width: 640px) calc(100vw - 64px), calc(100vw - 48px)"
+      loading="lazy"
+      class="mt-8 aspect-4/5 w-full object-cover sm:mt-10 sm:aspect-4/3 lg:aspect-16/10"
+    />
+
+    <dl
+      class="mt-6 grid grid-cols-1 gap-4 text-center md:mt-7 md:grid-cols-3 md:gap-5"
+    >
+      <div>
+        <dt
+          class="text-[0.6875rem] font-semibold tracking-[0.2em] text-muted-foreground uppercase"
+        >
+          Overall
+        </dt>
+        <dd
+          class="mt-1.5 flex items-baseline justify-center gap-2 font-heading text-[1.375rem] tracking-tight sm:text-[1.75rem]"
+        >
+          <span
+            aria-hidden="true"
+            class="text-lg text-[#d49b20] sm:text-[1.375rem]">★</span
+          >
+          <span>{data.overallRating.toFixed(1)} / 5</span>
+        </dd>
+      </div>
+
+      <div>
+        <dt
+          class="text-[0.6875rem] font-semibold tracking-[0.2em] text-muted-foreground uppercase"
+        >
+          Spending
+        </dt>
+        <dd
+          class="mt-1.5 font-heading text-[1.375rem] tracking-tight sm:text-[1.75rem]"
+        >
+          {data.spending}
+        </dd>
+      </div>
+
+      <div>
+        <dt
+          class="text-[0.6875rem] font-semibold tracking-[0.2em] text-muted-foreground uppercase"
+        >
+          Approved at
+        </dt>
+        <dd
+          class="mt-1.5 font-heading text-[1.375rem] tracking-tight sm:text-[1.75rem]"
+        >
+          <time datetime={data.approvedAt.toISOString()}>{approvedDate}</time>
+        </dd>
+      </div>
+    </dl>
+  </div>
+</div>
