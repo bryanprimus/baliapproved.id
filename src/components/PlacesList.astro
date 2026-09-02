@@ -154,10 +154,13 @@ const dateFormatter = new Intl.DateTimeFormat("en-GB", {
                   href={data.mapsUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="mt-6 inline-flex max-w-xl items-start gap-2 text-sm leading-relaxed text-muted-foreground decoration-foreground/35 underline-offset-4 hover:text-foreground hover:underline focus-visible:rounded-sm focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#006241]"
+                  class="mt-6 inline-flex max-w-xl items-start text-sm leading-relaxed text-muted-foreground decoration-foreground/35 underline-offset-4 hover:text-foreground hover:underline focus-visible:rounded-sm focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#006241]"
                 >
-                  <span aria-hidden="true">📍</span>
-                  <span>{data.address}</span>
+                  <span>
+                    <span aria-hidden="true">📍</span>
+                    {"\u00A0"}
+                    {data.address}
+                  </span>
                   <span class="sr-only"> (opens in a new tab)</span>
                 </a>
               </div>
