@@ -1,0 +1,79 @@
+---
+import "../../../styles/global.css";
+
+const titles: Record<string, string> = {
+  renon: "Renon",
+  canggu: "Canggu",
+};
+
+export function getStaticPaths() {
+  if (import.meta.env.PROD) {
+    return [];
+  }
+
+  return [{ params: { area: "renon" } }, { params: { area: "canggu" } }];
+}
+
+if (import.meta.env.PROD) {
+  return new Response(null, { status: 404, statusText: "Not Found" });
+}
+
+const { area } = Astro.params;
+
+if (!area || !(area in titles)) {
+  return new Response(null, { status: 404, statusText: "Not Found" });
+}
+
+const title = titles[area];
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1080" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="color-scheme" content="light" />
+    <title>IG highlight · {title}</title>
+    <style is:global>
+      astro-dev-toolbar {
+        display: none !important;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="cover">
+      <p class="title">{title}</p>
+    </main>
+  </body>
+</html>
+
+<style>
+  html,
+  body {
+    margin: 0;
+    width: 1080px;
+    height: 1080px;
+    overflow: hidden;
+    background: #006241;
+    color: #f5f2e9;
+  }
+
+  .cover {
+    box-sizing: border-box;
+    display: grid;
+    width: 1080px;
+    height: 1080px;
+    place-items: center;
+    padding: 72px;
+  }
+
+  .title {
+    margin: 0;
+    font-family: var(--font-heading);
+    font-size: 248px;
+    line-height: 1;
+    letter-spacing: -0.04em;
+    text-align: center;
+  }
+</style>
