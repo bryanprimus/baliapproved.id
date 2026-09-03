@@ -4,6 +4,7 @@ import "../../../styles/global.css";
 const titles: Record<string, string> = {
   renon: "Renon",
   canggu: "Canggu",
+  kuta: "Kuta",
 };
 
 export function getStaticPaths() {
@@ -11,7 +12,11 @@ export function getStaticPaths() {
     return [];
   }
 
-  return [{ params: { area: "renon" } }, { params: { area: "canggu" } }];
+  return [
+    { params: { area: "renon" } },
+    { params: { area: "canggu" } },
+    { params: { area: "kuta" } },
+  ];
 }
 
 if (import.meta.env.PROD) {
