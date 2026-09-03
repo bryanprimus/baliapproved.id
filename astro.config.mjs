@@ -14,6 +14,7 @@ import { SITE } from "./site.config.mjs";
 // https://astro.build/config
 export default defineConfig({
   site: SITE.url,
+  trailingSlash: "never",
 
   adapter: cloudflare({ imageService: "compile" }),
 

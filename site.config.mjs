@@ -10,7 +10,5 @@ export const SITE = {
   defaultImage: "/og-image.png",
   defaultImageAlt: "Bali Approved seal",
 
-  // Keep search indexing off while the public homepage is only a scaffold.
-  // Before flipping this, configure the production host redirects noted at handoff.
-  indexable: false,
+  indexable: true,
 };
