@@ -12,12 +12,34 @@ spending: Rp30K-100K per person
 overallRating: 4.6
 approvedAt: 2026-08-28
 gallery:
-  - src: ./DSCF4403.webp
-    alt: Shelves of Seniman coffee beans and tea packages on the retail display
-  - src: ./DSCF4449.webp
-    alt: A latte and green glass tumblers on a colorful tray at Seniman Coffee Renon
-  - src: ./DSCF4408.webp
-    alt: Bottles, tea packages and merchandise on the retail shelves at Seniman Coffee Renon
+  - src: ./seniman_1.webp
+    alt: The Seniman bar with the coffee flavor wheel and specials board behind it, and Bar Roker chairs lined up in front
+  - src: ./seniman_2.webp
+    alt: A barista pouring from a gooseneck kettle into a pour-over cone, with a syphon brewer set up alongside
+  - src: ./seniman_3.webp
+    alt: A latte with feather latte art on a brightly painted tray surrounded by green glass tumblers
+  - src: ./seniman_4.webp
+    alt: Karana Bali Madu, Kintamanis and Tirta bean bags packed in open Seniman shop boxes on a wooden table
+  - src: ./seniman_5.webp
+    alt: The Tektonik Records corner, with record bins, a wall of album sleeves and leather armchairs around a table
+  - src: ./seniman_6.webp
+    alt: Record crates labeled Blues/Rock and Rock & Roll Oldies beside the turntables and the Tektonik price list
+  - src: ./seniman_7.webp
+    alt: An Astro Boy figurine and a Pointer Sisters record sleeve in front of the Tektonik wall of album covers
+  - src: ./seniman_8.webp
+    alt: Sitting at a table in the main room, with the lit retail shelves and the counter behind
+  - src: ./seniman_9.webp
+    alt: The main room in daylight, with folded white ceiling panels, wooden tables, white rocking chairs and people working by the windows
+  - src: ./seniman_10.webp
+    alt: Glass bottles and cups of coffee beans along the retail ledge, with tea packages, caps and a Seniman tote above
+  - src: ./seniman_11.webp
+    alt: A Seniman glass of dark coffee sitting on a glass server at the bar
+  - src: ./seniman_12.webp
+    alt: The Seniman Cafe doorway sign next to a display cabinet of brewing gear, with a scooter parked outside
+  - src: ./seniman_13.webp
+    alt: Hanging fabric banners reading The Power Within Craftsmanship above white plinths displaying leather goods
+  - src: ./seniman_14.webp
+    alt: Imagine You Know What You're Doing painted on the exterior wall in the afternoon sun, with a motorbike parked below
 ---
 
 ## Seniman Coffee Renon feels like a coffee shop designed by people who genuinely enjoy making things.
@@ -60,8 +82,8 @@ This is a place that rewards slowing down. If you are in a rush, you will miss m
 
 **⭐ 4.6 / 5**
 
-![Shelves of Seniman coffee beans and tea packages on the retail display](./DSCF4403.webp)
-![A latte and green glass tumblers on a colorful tray at Seniman Coffee Renon](./DSCF4449.webp)
+![The Seniman bar with the coffee flavor wheel and specials board behind it, and Bar Roker chairs lined up in front](./seniman_1.webp)
+![The Tektonik Records corner, with record bins, a wall of album sleeves and leather armchairs around a table](./seniman_5.webp)
 
 ## Work Experience
 
@@ -141,7 +163,7 @@ The indoor area is air-conditioned, and the covered seating at the back is the b
 
 # 3. GOOD TO KNOW
 
-![Bottles, tea packages and merchandise on the retail shelves at Seniman Coffee Renon](./DSCF4408.webp)
+![Glass bottles and cups of coffee beans along the retail ledge, with tea packages, caps and a Seniman tote above](./seniman_10.webp)
 
 ## Spending
 
