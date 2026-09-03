@@ -1,5 +1,6 @@
 ---
 import SEO from "@/components/SEO.astro";
+import PostHog from '../components/PostHog.astro'
 import "../styles/global.css";
 
 import { SITE } from "../../site.config.mjs";
@@ -65,6 +66,7 @@ const serializedJsonLd = jsonLd
       )
     }
     <slot name="head" />
+    <PostHog/>
   </head>
   <body>
     <slot />
