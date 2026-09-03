@@ -35,9 +35,6 @@ importers:
       '@types/react-dom':
         specifier: ^19.2.5
         version: 19.2.5(@types/react@19.2.18)
-      '@yeskunall/astro-umami':
-        specifier: 0.0.9
-        version: 0.0.9(astro@7.2.9(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.4.0)(jiti@2.7.0)(yaml@2.9.0))
       astro:
         specifier: ^7.2.9
         version: 7.2.9(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.4.0)(jiti@2.7.0)(yaml@2.9.0)
@@ -1751,11 +1748,6 @@ packages:
 
   '@vscode/l10n@0.0.18':
     resolution: {integrity: sha512-KYSIHVmslkaCDyw013pphY+d7x1qV8IZupYfeIfzNA+nsaWHbn5uPuQRvdRFsa9zFzGeudPuoGoZ1Op4jrJXIQ==}
-
-  '@yeskunall/astro-umami@0.0.9':
-    resolution: {integrity: sha512-qjjVxEjOxade46Cj0mZ8r1agBMJP2e6NgCVlbyMEfbREc3Jruptq6No7G8Q+81rATaS3WnrQ/KmH9PpVvnzIpQ==}
-    peerDependencies:
-      astro: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0
 
   accepts@2.0.0:
     resolution: {integrity: sha512-5cvg6CtKwfgdmVqY1WIiXKc3Q1bkRqGLi+2W/6ao+6Y7gu/RCwRuAhGEzh5B4KlszSuTLgZYuqFqo5bImjNKng==}
@@ -5647,10 +5639,6 @@ snapshots:
       vscode-uri: 3.2.0
 
   '@vscode/l10n@0.0.18': {}
-
-  '@yeskunall/astro-umami@0.0.9(astro@7.2.9(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.4.0)(jiti@2.7.0)(yaml@2.9.0))':
-    dependencies:
-      astro: 7.2.9(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.4.0)(jiti@2.7.0)(yaml@2.9.0)
 
   accepts@2.0.0:
     dependencies:

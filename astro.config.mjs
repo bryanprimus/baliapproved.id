@@ -3,7 +3,6 @@ import { defineConfig } from "astro/config";
 
 import cloudflare from "@astrojs/cloudflare";
 import sitemap from "@astrojs/sitemap";
-import umami from "@yeskunall/astro-umami";
 
 import react from "@astrojs/react";
 
@@ -18,13 +17,7 @@ export default defineConfig({
 
   adapter: cloudflare({ imageService: "compile" }),
 
-  integrations: [
-    SITE.indexable && sitemap(),
-    umami({
-      id: "011ffcdf-f9e9-49ad-8bf0-587e41429ccb",
-    }),
-    react(),
-  ],
+  integrations: [SITE.indexable && sitemap(), react()],
 
   vite: {
     plugins: [tailwindcss()],
