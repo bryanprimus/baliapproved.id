@@ -12,24 +12,26 @@ spending: Rp30K-60K per person
 overallRating: 4.4
 approvedAt: 2026-07-29
 gallery:
-  - src: ./DSCF2982.webp
-    alt: Holding a CHAGEE cup in front of the illuminated pick-up counter and tea brewing machines
-  - src: ./DSCF2984.webp
-    alt: View through the oval window in the plaster wall out to Balinese gate towers and the sea beyond
-  - src: ./DSCF2988.webp
-    alt: CHAGEE Tea Bar lettering embossed on the ribbed plaster wall, with a wooden horse figure and tea boxes on the ledge
-  - src: ./DSCF2990.webp
+  - src: ./chagee_1.webp
+    alt: The CHAGEE storefront in golden light, with two people sitting on the bench outside and a Bes-Tea Brew Crew board alongside
+  - src: ./chagee_2.webp
+    alt: The CHAGEE wordmark and neon C logo on the glass door, with a palm reflected in it and tea products displayed inside
+  - src: ./chagee_3.webp
+    alt: The illuminated C logo on the ribbed wall above the curved tiered bench seating and round tables
+  - src: ./chagee_4.webp
+    alt: Afternoon light across the curved seating area, with someone at a table beside the planted oval window
+  - src: ./chagee_5.webp
     alt: Loose tea leaves in a glass flask on a brass stand next to an Osmanthus Oolong Tea display card
-  - src: ./DSCF2992.webp
-    alt: The lit TEABAR counter and neon CHAGEE logo on the ribbed wall, with staff at the order window
-  - src: ./DSCF3006.webp
+  - src: ./chagee_6.webp
+    alt: CHAGEE Tea Bar lettering embossed on the ribbed plaster wall, with a wooden horse figure and tea boxes on the ledge
+  - src: ./chagee_7.webp
+    alt: The lit TEABAR order window with the neon C logo and app QR code on the wall, and staff at the counter
+  - src: ./chagee_8.webp
     alt: Standing outside the CHAGEE storefront at golden hour holding a drink
-  - src: ./DSCF3011.webp
-    alt: CHAGEE logo on the glass door with a palm tree reflected in it and tea products displayed inside
-  - src: ./DSCF3018.webp
-    alt: The CHAGEE storefront in late afternoon light, with two people sitting on the bench outside
-  - src: ./DSCF3091.webp
-    alt: Looking out over Kuta Beach at sunset, with surfers in the water
+  - src: ./chagee_9.webp
+    alt: The view through the oval window in the plaster wall out to Balinese gate towers and the sea beyond
+  - src: ./chagee_10.webp
+    alt: Umbrellas and loungers on Kuta Beach at sunset, with surfers out in the water
 ---
 
 ## If you are looking for a place to hang out but do not feel like having coffee or matcha again, CHAGEE is an appealing alternative.
@@ -73,8 +75,8 @@ And once the afternoon starts turning, light from the direction of Kuta Beach re
 
 **⭐ 4.5 / 5**
 
-![Afternoon light across the curved seating area at CHAGEE Discovery Mall](./DSCF3032.webp)
-![Curved bench seating beneath the illuminated C logo at CHAGEE Discovery Mall](./DSCF2981.webp)
+![Afternoon light across the curved seating area, with someone at a table beside the planted oval window](./chagee_4.webp)
+![The illuminated C logo on the ribbed wall above the curved tiered bench seating and round tables](./chagee_3.webp)
 
 ## Work Experience
 
@@ -148,7 +150,7 @@ If you are looking for somewhere to cool off from the Kuta heat, the indoor area
 
 # 3. GOOD TO KNOW
 
-![Umbrellas on Kuta Beach at sunset, just outside Discovery Shopping Mall](./DSCF3081.webp)
+![Umbrellas and loungers on Kuta Beach at sunset, with surfers out in the water](./chagee_10.webp)
 
 ## Spending
 
