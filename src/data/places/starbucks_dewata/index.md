@@ -12,16 +12,22 @@ spending: Rp30K-75K per person
 overallRating: 4.5
 approvedAt: 2026-07-23
 gallery:
-  - src: ./DSCF2930.webp
-    alt: Woven rattan sphere sculpture hanging above the long bar counter and patterned tile floor at Starbucks Reserve Dewata
-  - src: ./DSCF2931.webp
-    alt: Floor-to-ceiling windows looking out to the planted outdoor terrace, with bar ledge seating along the glass
-  - src: ./DSCF2934.webp
+  - src: ./starbucks_1.webp
+    alt: The large white Starbucks bear statue in a green cup-lid hat, seen from below against the sky and garden greenery
+  - src: ./starbucks_2.webp
+    alt: The Starbucks siren sign on a post above the roadside terrace tables, with a shade tree and planting alongside
+  - src: ./starbucks_3.webp
+    alt: Double-height windows under a slatted timber ceiling, with someone standing at the bar ledge looking out to the terrace
+  - src: ./starbucks_4.webp
+    alt: A long shared bar table and wooden stools running along the floor-to-ceiling windows on the upper walkway
+  - src: ./starbucks_5.webp
+    alt: Looking down from the upper floor over the long Reserve bar and patterned tile floor, with the woven rattan sphere hanging above
+  - src: ./starbucks_6.webp
     alt: Glass pour-over brewers lined up along the counter beside a Beans of the Day card, with a barista working the bar
-  - src: ./DSCF2935.webp
-    alt: Journey from Seed to Cup display panel about Sumatran coffee on the wall of the seating area
-  - src: ./DSCF2942.webp
-    alt: Large white Starbucks bear statue wearing a green cup-lid hat in the garden outside
+  - src: ./starbucks_7.webp
+    alt: Merchandise shelves of Dewata coffee bags, tumblers and mugs with a rolling ladder, under a timber-slat ceiling
+  - src: ./starbucks_8.webp
+    alt: The Journey from Seed to Cup panel about Sumatran coffee on the wall of the seating area
 ---
 
 Starbucks Dewata is one of those places that feels easy to spend time in.
@@ -59,8 +65,8 @@ We visited after lunch on a weekday, and at that time, it was relatively quiet. 
 
 **⭐ 4.5 / 5**
 
-![Bar seating along the window-lined walkway at Starbucks Reserve Dewata](./DSCF2933.webp)
-![Merchandise shelves and rolling ladder behind the bar at Starbucks Reserve Dewata](./DSCF2938.webp)
+![A long shared bar table and wooden stools running along the floor-to-ceiling windows on the upper walkway](./starbucks_4.webp)
+![Merchandise shelves of Dewata coffee bags, tumblers and mugs with a rolling ladder, under a timber-slat ceiling](./starbucks_7.webp)
 
 ## Work Experience
 
@@ -144,7 +150,7 @@ Some spots upstairs can also get direct sunlight in the afternoon, although the 
 
 # 3. GOOD TO KNOW
 
-![The Starbucks Reserve Dewata sign and roadside tables on Jalan Sunset Road](./DSCF2936.webp)
+![The Starbucks siren sign on a post above the roadside terrace tables, with a shade tree and planting alongside](./starbucks_2.webp)
 
 ## Spending
 
