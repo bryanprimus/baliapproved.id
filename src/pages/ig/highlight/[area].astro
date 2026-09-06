@@ -5,6 +5,7 @@ const titles: Record<string, string> = {
   renon: "Renon",
   canggu: "Canggu",
   kuta: "Kuta",
+  ubud: "Ubud",
 };
 
 export function getStaticPaths() {
@@ -16,6 +17,7 @@ export function getStaticPaths() {
     { params: { area: "renon" } },
     { params: { area: "canggu" } },
     { params: { area: "kuta" } },
+    { params: { area: "ubud" } },
   ];
 }
 
