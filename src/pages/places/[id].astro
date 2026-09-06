@@ -4,7 +4,6 @@ import { getCollection, type CollectionEntry } from "astro:content";
 
 import Footer from "@/components/Footer.astro";
 import { ModeToggle } from "@/components/ModeToggle";
-import PlaceCarousel from "@/components/PlaceCarousel.astro";
 import PlaceCover from "@/components/PlaceCover.astro";
 import PlaceReview from "@/components/PlaceReview.astro";
 import Layout from "@/layouts/Layout.astro";
@@ -124,7 +123,6 @@ const jsonLd = {
     <article aria-labelledby={`${place.id}-title`}>
       <PlaceCover place={place} headingLevel="h1" />
       <PlaceReview place={place} />
-      <PlaceCarousel place={place} />
     </article>
   </main>
 
