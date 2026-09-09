@@ -26,6 +26,9 @@ public/_ig-raw/
 # Generated Instagram covers and captions
 exports/
 
+# Generated company-profile screenshots
+output/company-profile-screenshots/
+
 # jetbrains setting folder
 .idea/
 
