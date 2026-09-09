@@ -12,7 +12,8 @@ if (!area) {
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const outDir = path.join(root, "exports", "ig", "highlights");
 const outPng = path.join(outDir, `${area}.png`);
-const url = `http://localhost:4321/ig/highlight/${area}`;
+const origin = process.env.IG_EXPORT_ORIGIN ?? "http://localhost:4321";
+const url = `${origin}/ig/highlight/${area}`;
 
 const playwrightPath =
   process.env.PLAYWRIGHT_MODULE ??
