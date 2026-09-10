@@ -1,0 +1,99 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import { ModeToggle } from "@/components/ModeToggle";
+import { buttonVariants } from "@/components/ui/button";
+import { cn } from "@/lib/utils";
+
+import { SITE } from "../../site.config.mjs";
+
+export const prerender = true;
+
+Astro.response.status = 404;
+---
+
+<Layout
+  title={`Page not found | ${SITE.name}`}
+  description="This page isn't on the list. Head home to browse places we've actually visited."
+  canonical="/"
+>
+  <meta slot="head" name="robots" content="noindex, follow" />
+
+  <main
+    class="flex min-h-[100dvh] flex-col bg-site-canvas px-6 py-6 sm:py-8"
+  >
+    <div class="mx-auto flex w-full max-w-xl flex-1 flex-col">
+      <div class="flex justify-center">
+        <ModeToggle client:load />
+      </div>
+
+      <div
+        class="flex flex-1 flex-col justify-center py-16 sm:py-20"
+      >
+        <p
+          class="not-found-fade font-heading text-4xl leading-none tracking-[-0.04em] sm:text-5xl"
+          style="--not-found-delay: 0ms"
+        >
+          <a
+            href="/"
+            class="rounded-sm transition-opacity hover:opacity-70 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-foreground/70"
+            aria-label={`${SITE.name} home`}
+          >
+            {SITE.name}
+          </a>
+        </p>
+
+        <p
+          class="not-found-fade mt-10 font-heading text-[clamp(4.5rem,18vw,7.5rem)] leading-none tracking-[-0.06em] text-muted-foreground/35"
+          style="--not-found-delay: 80ms"
+          aria-hidden="true"
+        >
+          404
+        </p>
+
+        <h1
+          class="not-found-fade mt-8 text-xl leading-tight tracking-tight sm:text-3xl"
+          style="--not-found-delay: 160ms"
+        >
+          This page isn't on the list.
+        </h1>
+
+        <p
+          class="not-found-fade mt-4 max-w-md text-base leading-relaxed text-muted-foreground"
+          style="--not-found-delay: 240ms"
+        >
+          The link may be wrong, or we simply haven't been there yet.
+        </p>
+
+        <div class="not-found-fade mt-8" style="--not-found-delay: 320ms">
+          <a href="/" class={cn(buttonVariants({ size: "lg" }))}>
+            See the places
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+</Layout>
+
+<style>
+  @keyframes not-found-rise {
+    from {
+      opacity: 0;
+      transform: translateY(0.6rem);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .not-found-fade {
+    animation: not-found-rise 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
+    animation-delay: var(--not-found-delay, 0ms);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .not-found-fade {
+      animation: none;
+    }
+  }
+</style>
