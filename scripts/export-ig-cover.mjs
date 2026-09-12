@@ -17,7 +17,8 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const outDir = path.join(root, "exports", "ig", id);
 const outPng = path.join(outDir, "cover.png");
 const stagedRaw = path.join(root, "public", "_ig-raw", `${id}.jpg`);
-const url = `http://localhost:4321/ig/${id}`;
+const origin = process.env.IG_EXPORT_ORIGIN ?? "http://localhost:4321";
+const url = `${origin}/ig/${id}`;
 
 const playwrightPath =
   process.env.PLAYWRIGHT_MODULE ??
